@@ -1,3 +1,4 @@
+# 
 # Portfolio Website
 
 A modern, responsive portfolio website built with React, TypeScript, and Vite. This project showcases a clean, professional design with smooth animations and interactive elements.
@@ -12,29 +13,29 @@ A modern, responsive portfolio website built with React, TypeScript, and Vite. T
 ### Installation
 
 1. Clone the repository:
-   ```bash
+   ```bash````bash
    git clone <repository-url>
    cd portfolio
-   ```
+   ```bash````
 
 2. Install dependencies:
-   ```bash
+   ```bash````bash
    npm install
-   ```
+   ```bash````
 
 3. Start the development server:
-   ```bash
+   ```bash````bash
    npm run dev
-   ```
+   ```bash````
 
-4. Open your browser and visit `http://localhost:5173`
+4. Open your browser and visit ```bashhttp://localhost:5173```
 
 ## 📦 Available Scripts
 
-- `npm run dev` - Start the development server
-- `npm run build` - Build the project for production
-- `npm run preview` - Preview the production build locally
-- `npm run lint` - Run ESLint to check for code issues
+- ```bashnpm run dev``` - Start the development server
+- ```bashnpm run build``` - Build the project for production
+- ```bashnpm run preview``` - Preview the production build locally
+- ```bashnpm run lint``` - Run ESLint to check for code issues
 
 ## 🛠️ Tech Stack
 
@@ -51,7 +52,7 @@ This portfolio is built using modern web technologies:
 
 ## 📁 Project Structure
 
-```
+```bash````
 src/
 ├── components/          # Reusable React components
 │   ├── Contact.tsx     # Contact section component
@@ -63,15 +64,15 @@ src/
 │   └── content.ts      # Site content and configuration
 ├── assets/             # Static assets (images, animations)
 └── App.tsx            # Main application component
-```
+```bash````
 
 ## 🎨 Customization
 
 To customize this portfolio for your own use:
 
-1. Update the content in [`src/data/content.ts`](src/data/content.ts)
-2. Replace images and animations in the [`src/assets/`](src/assets/) directory
-3. Modify the styling in component files or update the Tailwind configuration in [`tailwind.config.js`](tailwind.config.js)
+1. Update the content in [```bashsrc/data/content.ts```](src/data/content.ts)
+2. Replace images and animations in the [```bashsrc/assets/```](src/assets/) directory
+3. Modify the styling in component files or update the Tailwind configuration in [```bashtailwind.config.js```](tailwind.config.js)
 
 ## 🔧 Development Setup
 
@@ -81,9 +82,9 @@ If you're planning to extend this portfolio or develop it further for production
 
 #### Type-Aware Lint Rules
 
-For stricter TypeScript checking, update your ESLint configuration to enable type-aware rules. Create or update your `eslint.config.js` file:
+For stricter TypeScript checking, update your ESLint configuration to enable type-aware rules. Create or update your ```basheslint.config.js``` file:
 
-```javascript
+```bash````javascript
 export default tseslint.config([
   globalIgnores(['dist']),
   {
@@ -109,19 +110,19 @@ export default tseslint.config([
     },
   },
 ])
-```
+```bash````
 
 #### React-Specific Lint Rules
 
 You can also install additional plugins for React-specific linting. First install the packages:
 
-```bash
+```bash````bash
 npm install --save-dev eslint-plugin-react-x eslint-plugin-react-dom
-```
+```bash````
 
-Then update your `eslint.config.js`:
+Then update your ```basheslint.config.js```:
 
-```javascript
+```bash````javascript
 // eslint.config.js
 import reactX from 'eslint-plugin-react-x'
 import reactDom from 'eslint-plugin-react-dom'
@@ -146,15 +147,15 @@ export default tseslint.config([
     },
   },
 ])
-```
+```bash````
 
 ## 📄 Configuration Files
 
-- [`package.json`](package.json) - Project dependencies and scripts
-- [`tsconfig.json`](tsconfig.json) - TypeScript configuration
-- [`vite.config.ts`](vite.config.ts) - Vite build tool configuration
-- [`tailwind.config.js`](tailwind.config.js) - Tailwind CSS configuration
-- [`postcss.config.js`](postcss.config.js) - PostCSS configuration
+- [```bashpackage.json```](package.json) - Project dependencies and scripts
+- [```bashtsconfig.json```](tsconfig.json) - TypeScript configuration
+- [```bashvite.config.ts```](vite.config.ts) - Vite build tool configuration
+- [```bashtailwind.config.js```](tailwind.config.js) - Tailwind CSS configuration
+- [```bashpostcss.config.js```](postcss.config.js) - PostCSS configuration
 
 ## 🤝 Contributing
 
